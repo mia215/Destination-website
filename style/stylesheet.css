@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+a {
+    text-decoration: none;
+}
+
+.fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(0, 128, 128, 0.9);
+    background-size: cover;
+    position :fixed;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  
+  .header-left h1 {
+    float: left;
+    font-size: 45px;
+    letter-spacing: 2.1px;
+    font-family: cursive;
+    color: white;
+    margin-left: 35px;
+    margin-bottom: 45px;
+  }
+
+
+  
+  .header-right {
+    float: right;
+    margin-right: -10px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 20px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+.menu-icon {
+  color: black;
+  float: right;
+  font-size: 50px;
+  padding: 5px 0;
+  display: none;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text {
+    color: rgb(1,5,13);
+	width: 100%;
+	margin:0 auto;
+	position: absolute;
+    text-align: center;
+    z-index: 99;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	padding: 100px 0;
+}
+
+.text h1 {
+	font-size: 80px;
+  	letter-spacing: 5px;
+}
+
+.text p {
+	font-size:60px;
+	color:firebrick;
+}
+
+.container-form {
+	margin:30px 300px;
+	background-color: lightgrey;
+	padding: 15px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	border: 5px solid black;
+}
+.container-form p {
+	color:black;
+	font-size: 30px;
+}
+
+.container-form form {
+	font-size: 20px;
+}
+form {
+	padding-top:10px;
+}
+
+input[type=text] {
+    width: 200px;
+    border: 2px solid black;
+    background-color:#d4d4d4;
+    opacity: 0.8;
+}
+input[type=date] {
+    width: 200px;
+    border: 2px solid black;
+    background-color: #d4d4d4;
+    opacity: 0.8;
+}
+
+.message {
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+    border: transparent #5dca88 5px;
+	margin: 15px;
+  }
+
+.message:active {
+  	position:relative;
+  	box-shadow:none;
+  	top:7px;
+}
+#slider {
+    overflow: hidden;
+	padding-top: 65px;
+	
+  }
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+  }
+
+#slider figure img {
+     width: 20%;
+     float: left;
+     height: 690px;
+     opacity: 70%;
+  }
+
+#slides article {
+     width: 25%;
+     float: left;
+     position: relative;
+  }
+
+@keyframes slider {
+     0%  {left: 0;}
+     20% {left: 0;}
+     21% {left: -100%;}
+     40% {left: -100%;}
+     41% {left: -200%;}
+     60% {left: -200%;}
+     61% {left: -300%;}
+     80% {left: -300%;}
+     81% {left: -400%;}
+     100%{left: -400%; right: 0;}
+  }
+
+.main-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2, h3 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+.lesson-icon img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.txt {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: darkblue;
+}
+
+
+footer {
+  	background-color: #008080;
+  	color: #fff;
+  	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: left;
+}
+.footer-left{
+  	width: 49%;
+  	display: inline-block;
+  	vertical-align: top;
+}
+

@@ -1,0 +1,57 @@
+@media all and (max-width: 1000px) {
+	.container-form {
+		margin: 15px 100px;
+	}
+	input[type=text] {
+		width: 100%;
+	}
+	input[type=date] {
+		width: 100%;
+	}
+	
+	.text h1 {
+		font-size: 60px;
+	}
+
+	.text p {
+		font-size: 40px;
+	}
+	
+	.container-form p {
+		font-size: 20px;
+	}
+	
+	.lesson {            
+    	width: 50%;            
+    	margin-bottom: 50px;            
+   }            
+  }
+
+  @media all and (max-width: 670px) {
+   
+    
+    .header-right{
+      display: none;
+    }
+    
+    .menu-icon{
+      display: block;
+    }
+    
+    .footer-left{
+    width: 100%;
+	}
+	  
+	.text h1 {
+		font-size: 50px;
+	}
+
+	.text p {
+		font-size: 30px;
+	}
+	
+	.lesson {            
+    	width: 100%;            
+   }
+	
+  }
